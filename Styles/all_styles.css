@@ -1,0 +1,41 @@
+body {
+    max-width: 1440px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-family: sans-serif, Times, serif;
+    margin: 0 auto;
+}
+
+/*
+Основные стили для header-a
+*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    align-self: center;
+}
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li {
+    margin-left: 88px;
+    align-self: center;
+}
+.logo {
+    margin: 13px 55px;
+}
+.contact {
+    background-color: #FA9021;
+    padding: 10px;
+    margin: 0 63px 0 37px;
+    border-radius: 10px;
+}
