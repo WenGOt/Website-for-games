@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="title">News</title>
-    <link rel="stylesheet" href="Styles/all_styles.css">
+    <link rel="stylesheet" href="styles/all_styles.css">
     <script src="scripts/main_script.js"></script>
 </head>
 <body>
@@ -20,9 +20,7 @@
     -->
     <header>
         <nav class="header_navigation">
-            <a href="main.html">
-                <p class="logo">LOGO</p>
-            </a>
+            <a class="header_logo" href="main.html">LOGO</a>
             <ul class="header_navigation-list">
                 <li><a href="./main.html">Home</a></li>
                 <li><a href="./about_us.html">About us</a></li>
@@ -36,5 +34,39 @@
         </nav>
     </header>
     
+    <!--
+        Footer с различным содержанием,
+        начиная от ссылок на другие страницы
+        и заканчивая ссылками на соц-сети и контактный телефон. 
+        Используется также на всех страницах.
+    -->
+    <footer>
+        <div class="footer_main">
+            <div class="footer_main-logo">
+                <a href="main.html">LOGO</a>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>@Logo</p>
+            </div>
+            <div class="footer_main-links">
+                <a href="./about_us.html" style="font-weight: bold;">About us</a>
+                <div class="footer_main-links--block">
+                    <p><a href="./main.html">Home</a></p>
+                    <p><a href="./news.html">News</a></p>
+                    <p><a href="./services.html">Services</a></p>
+                </div>
+            </div>
+            <div class="footer_main-info">
+                <a href="./contact_us.html" style="font-weight: bold;">Contact us</a>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>+999 99999 999</p>
+            </div>
+            <div class="footer_main-soc_links">
+                <img src="images/soc_links.png" alt="soc_links">
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <p>Copyright ® 2021 Lorem All rights Rcerved</p>
+        </div>
+    </footer>
 </body>
 </html>

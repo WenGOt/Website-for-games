@@ -1,8 +1,8 @@
 body {
     max-width: 1440px;
+    min-width: 800px;
     background: linear-gradient(#050301 , #150C01);
     color: white;
-    border: 1px solid white;
     font-family: sans-serif, Times, serif;
     margin: 0 auto;
 }
@@ -32,8 +32,10 @@ body {
     line-height: 12px;
     align-self: center;
 }
-.logo {
+.header_logo {
     margin: 13px 55px;
+    font-size: x-large;
+    font-weight: 900;
 }
 .header_navigation-image {
     padding: 0;
@@ -44,4 +46,44 @@ body {
     padding: 10px;
     margin: 0 63px 0 37px;
     border-radius: 10px;
+}
+
+/*
+Основные стили для footer-a
+*/
+.footer_main {
+    display: flex;
+    justify-content: space-around;
+}
+.footer_main-logo {
+    width: 25%;
+}
+.footer_main-links, .footer_main-soc_links {
+    width: 15%;
+}
+.footer_main-info {
+    width: 30%;
+}
+.footer_main-logo a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+}
+.footer_main-links a{
+    text-decoration: none;
+    color: white;
+}
+.footer_main-links--block {
+    margin-top: 23px;
+    line-height: 10px;
+}
+.footer_main-info a{
+    color: white;
+    text-decoration: none;
+}
+.footer_copyright {
+    border-top: 1px solid #D2D2D2;
+    text-align: center;
+    font-size: small;
 }
