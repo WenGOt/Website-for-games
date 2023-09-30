@@ -4,6 +4,7 @@
 .main_firstblock {
     display: flex;
     margin-top: 100px;
+    margin-bottom: -100px;
 }
 .firstblock-text {
     width: 40%;
@@ -36,13 +37,30 @@
 /*
 Первый блок с кнопкой (правая панель)
 */
-.firstblock-image{
+.firstblock-image_one {
     position: relative;
     width: 806px;
     height: 761px;
     z-index: -1;
     top: -200px;
     right: -230px;
+}
+.firstblock-image_two {
+    position: relative;
+    z-index: -1;
+    bottom: 750px;
+    left: 280px;
+}
+.firstblock-image_three {
+    position: relative;
+    z-index: -1;
+    bottom: 600px;
+}
+.firstblock-image_four {
+    position: relative;
+    z-index: -1;
+    bottom: 765px;
+    left: 490px;
 }
 /*
 Второй блок с текстом и кнопкой
@@ -55,8 +73,44 @@
     font-weight: bold;
     font-size: 31px;
     line-height: 187.5%;
+    margin: 0px;
 }
 .secondblock-button {
-    
+    color: white;
+    text-decoration: none;
+    background-color: #ffffff11;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    line-height: 187.5%;
 }
-
+/* 
+Третий блок с картинками и текстом под ним 
+*/
+.main_thirdblock {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+}
+.main_thirdblock>img {
+    width: 251px;
+    height: 277px;
+}
+.thirdblock-box_text {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.thirdblock-box_text p {
+    line-height: 187.5%;
+    font-size: 22px;
+    margin: 0px;
+    margin-left: -35px;
+}
+.thirdblock-box_text>img {
+    padding: 0px;
+    margin: auto 0px;
+    width: 25px;
+    height: 25px;
+    line-height: 187.5%;
+}
