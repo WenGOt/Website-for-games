@@ -87,3 +87,6 @@ body {
     text-align: center;
     font-size: small;
 }
+.footer_copyright p {
+    margin: 23px;
+}
