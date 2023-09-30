@@ -1,13 +1,12 @@
 /*
-Первый блок с кнопкой
+Первый блок с кнопкой (левая панель)
 */
 .main_firstblock {
-    border: 1px solid white;
     display: flex;
+    margin-top: 100px;
 }
-.firstblock-text, .firstblock-image {
-    border: 1px solid white;
-    width: 50%;
+.firstblock-text {
+    width: 40%;
 }
 .firstblock-text_head {
     font-size: 20px;
@@ -24,6 +23,7 @@
 .firstblock-text_footer {
     font-size: 16px;
     margin-bottom: 50px;
+    line-height: 200%;
 }
 .firstblock-button {
     text-decoration: none;
@@ -33,3 +33,30 @@
     padding: 15px 30px 15px 30px;
     line-height: 48px;
 }
+/*
+Первый блок с кнопкой (правая панель)
+*/
+.firstblock-image{
+    position: relative;
+    width: 806px;
+    height: 761px;
+    z-index: -1;
+    top: -200px;
+    right: -230px;
+}
+/*
+Второй блок с текстом и кнопкой
+*/
+.main_secondblock {
+    display: flex;
+    justify-content: space-between;
+}
+.main_secondblock p {
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 187.5%;
+}
+.secondblock-button {
+    
+}
+

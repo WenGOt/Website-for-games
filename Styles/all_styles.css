@@ -1,6 +1,5 @@
 body {
-    max-width: 1440px;
-    min-width: 800px;
+    width: 1440px;
     background: linear-gradient(#050301 , #150C01);
     color: white;
     font-family: sans-serif, Times, serif;
@@ -52,9 +51,9 @@ body {
 Основные стили для main-a
 */
 .main {
-    border: 1px solid white;
     margin-left: 143px;
     margin-right: 143px;
+    margin-bottom: 163px;
 }
 
 /*
