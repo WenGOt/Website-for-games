@@ -36,9 +36,11 @@ body {
     font-size: x-large;
     font-weight: 900;
 }
-.header_navigation-image {
-    padding: 0;
-    margin: 0;
+#header_navigation-image {
+    position: absolute;
+    margin-top: 10px;
+    
+    z-index: -1;
 }
 .contact_us {
     background-color: #FA9021;
