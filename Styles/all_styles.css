@@ -49,6 +49,15 @@ body {
 }
 
 /*
+Основные стили для main-a
+*/
+.main {
+    border: 1px solid white;
+    margin-left: 143px;
+    margin-right: 143px;
+}
+
+/*
 Основные стили для footer-a
 */
 .footer_main {

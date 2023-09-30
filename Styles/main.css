@@ -1,0 +1,35 @@
+/*
+Первый блок с кнопкой
+*/
+.main_firstblock {
+    border: 1px solid white;
+    display: flex;
+}
+.firstblock-text, .firstblock-image {
+    border: 1px solid white;
+    width: 50%;
+}
+.firstblock-text_head {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E87D0E;
+}
+.firstblock-text_body {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 155.2%;
+    margin-top: 17px;
+    margin-bottom: 26px;
+}
+.firstblock-text_footer {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.firstblock-button {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #E87D0E, #FB9E3C );
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+    line-height: 48px;
+}
