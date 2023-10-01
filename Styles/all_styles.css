@@ -39,7 +39,6 @@ body {
 #header_navigation-image {
     position: absolute;
     margin-top: 10px;
-    
     z-index: -1;
 }
 .contact_us {
