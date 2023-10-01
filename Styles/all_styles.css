@@ -58,9 +58,75 @@ body {
 }
 
 /*
+Стили для универсального блока
+*/
+.main_universalblock {
+    margin-top: 100px;
+}
+.universalblock-head {
+    line-height: 187.5%;
+    font-weight: bold;
+    font-size: 30px;
+}
+.universalblock-text {
+    line-height: 187.5%;
+    font-size: 16px;
+    margin-bottom: 70px;
+    width: 450px;
+}
+.universalblock-mailing {
+    z-index: -2;
+    background-color: #89898940;
+    border-radius: 15px;
+    display: flex;
+    padding: 40px 50px;
+}
+.universalblock-mailing_content {
+    width: 40%;
+    margin-right: 20px;
+}
+.universalblock-mailing_head {
+    line-height: 187.5%;
+    font-size: 30px;
+    margin: 0;
+}
+.universalblock-mailing_text {
+    line-height: 187.5%;
+    margin: 0;
+}
+.universalblock-mailing_input {
+    margin: auto auto auto 140px;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    height: 48px;
+    padding: 10px;
+}
+.universalblock-mailing_submit {
+    color: white;
+    padding: 0 20px;
+    border: 0;
+    border-radius: 15px;
+    background-color: orange;
+    margin-left: 10px;
+}
+.universalblock-mailing_inputbtn {
+    border: 0;
+    background-color: #00000000;
+    width: 350px;
+    height: 45px;
+    border-radius: 15px;
+    margin: auto 5px ;
+}
+
+/*
 Основные стили для footer-a
 */
+footer {
+    background-color: black;
+}
 .footer_main {
+    padding-top: 35px;
     display: flex;
     justify-content: space-around;
 }
@@ -91,11 +157,17 @@ body {
     color: white;
     text-decoration: none;
 }
+.footer_main-soc_links img {
+    position: relative;
+    bottom: -65px;
+}
 .footer_copyright {
     border-top: 1px solid #D2D2D2;
     text-align: center;
     font-size: small;
 }
 .footer_copyright p {
-    margin: 23px;
+    margin: 0;
+    padding: 10px;
+    line-height: 187.5%;
 }
