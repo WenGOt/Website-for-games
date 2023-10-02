@@ -1,0 +1,113 @@
+/*
+Первый блок с текстом и картинкой на почти весь экран
+*/
+.main_firstblock {
+    display: flex;
+    margin-top: 30px;
+}
+.firstblock-content {
+    width: 40%;
+}
+.firstblock-content_navigation {
+    display: flex;
+    margin-top: 93px;
+}
+.firstblock-content_navigation>a {
+    line-height: 187.5%;
+    font-size: 12px;
+    text-decoration: none;
+}
+.firstblock-content_navigation>a:first-child {
+    color: white;
+}
+.firstblock-content_navigation>a:last-child {
+    color: #E47500;
+}
+.firstblock-content_navigation>p {
+    margin: 0 10px;
+}
+.firstblock-content>h1 {
+    line-height: 187.5%;
+    font-weight: bold;
+}
+.firstblock-content>p {
+    line-height: 187.5%;
+    font-size: 15px;
+    margin-bottom: 57.5px;
+}
+.firstblock-content_btn>a {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #FA8305, #FB9E3C);
+}
+.firstblock-content_btn>a>img {
+    margin-left: 10px;
+}
+.firstblock-image {
+    position: relative;
+    left: 161px;
+}
+
+/*
+Второй блок с ответами на вопросы 
+*/
+.main_secondblock>p {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 187.5%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.secondblock-content {
+    display: flex;
+    justify-content: space-between;
+}
+.secondblock-content_text1, .secondblock-content_text2, .secondblock-content_text3 {
+    width: 280px;
+    height: 208px;
+    background-color: #1C140F;
+    border-radius: 20px;
+    padding: 50px 37px;
+}
+.secondblock-content_text1 p:nth-child(1), .secondblock-content_text2 p:nth-child(1), .secondblock-content_text3 p:nth-child(1) {
+    font-weight: bold;
+    line-height: 187.5%;
+    font-size: 14px;
+    width: 140px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 0;
+}
+.secondblock-content_text1 p:nth-child(1) {
+    background-color: #B000DC11;
+}
+.secondblock-content_text2 p:nth-child(1) {
+    background-color: #DC420011;
+}
+.secondblock-content_text3 p:nth-child(1) {
+    background-color: #00DC8D11;
+}
+.secondblock-content_text1 p:nth-child(2), .secondblock-content_text2 p:nth-child(2), .secondblock-content_text3 p:nth-child(2) {
+    font-weight: 560;
+    line-height: 187.5%;
+    font-size: 20px;
+}
+.secondblock-content_text1 p:nth-child(3), .secondblock-content_text2 p:nth-child(3), .secondblock-content_text3 p:nth-child(3) {
+    line-height: 187.5%;
+    font-size: 14px;
+}
+
+/*
+Блок с картинкой девушки и текстом
+*/
+.main_thirdblock {
+    position: static;
+    width: 1440px;
+    height: 603px;
+    background-color: #1C140F;
+    margin-top: 80px;
+    margin-left: -126px;
+}
