@@ -164,17 +164,19 @@
 Пятый блок задним фоном и ссылками на разные платформы
 */
 .main_fiveblock {
-    border: 1px solid #83838396;
     margin-top: 130px;
     background-image: url("../images/main/background.png");
+    width: 1440px;
     height: 881px;
+    margin-left: -143px;
+    padding-top: 1px;
 }
 .fiveblock-head, .fiveblock-text {
     text-align: center;
     width: 826px;
     line-height: 187.5%;
 }
-.fiveblock-head{
+.fiveblock-head {
     font-size: 30px;
     font-weight: Bold;
     margin: 93px auto 25px auto;
