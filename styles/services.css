@@ -107,6 +107,52 @@
 }
 
 /*
-
+Три блока с картинками и их описанием
 */
+.main_thirdblock {
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+.thirdblock-content {
+    width: 500px;
+    height: 460px;
+}
+.thirdblock-content>p:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+}
+.thirdblock-content>p:nth-child(2), .thirdblock-content>p:nth-child(3) {
+    font-size: 17px;
+    margin: 50px auto;
+}
+.thirdblock-content>a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: #E47500;
 
+}
+
+/*
+Четвёртый блок с отзывами о сайте и т.п.
+*/
+.main_fourblock {
+    background-color: #1C140F;
+    width: 1440px;
+    position: relative;
+    left: -143px;
+}
+.main_fourblock>p:nth-child(1) {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+.main_fourblock>p:nth-child(2) {
+    font-size: 14px;
+    line-height: 187.5%;
+    text-align: center;
+}
