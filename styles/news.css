@@ -1,0 +1,128 @@
+/*
+Первый блок c навигацией и поиском
+*/
+.firstblock-navigation {
+    width: min-content;
+    margin: 100px auto 0 auto;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.firstblock-navigation>p {
+    margin: 0 10px;
+}
+.firstblock-navigation>a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+.firstblock-navigation>a:last-child {
+    color: #E47500;
+}
+.firstblock-text {
+    text-align: center;
+}
+.firstblock-text>h1 {
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 180.5%;
+}
+.firstblock-text>p {
+    font-size: 16px;
+    line-height: 187.5%;
+    font-weight: bold;
+}
+.firstblock-find {
+    display: flex;
+    width: min-content;
+    margin: 40px auto;
+}
+.firstblock-find>img {
+    position: relative;
+    left: 25px;
+    width: 15px;
+    height: 15px;
+    margin: auto;
+}
+.firstblock-find>input {
+    background-color: #1C140F;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 50px;
+    border: 0;
+    line-height: px;
+    font-size: 12px;
+    color: white;
+}
+
+/*
+Второй блок - самый большой
+*/
+.main_secondblock {
+    display: flex;
+    justify-content: space-between;
+}
+/*
+Левый блок
+*/
+.secondblock-left, .secondblock-right {
+    width: 44%;
+}
+.secondblock-left_block:nth-child(1) {
+    margin-bottom: 100px;
+}
+.secondblock-left_block:nth-child(2) {
+    border-top: 1px solid #A5A5A560;
+    padding-top: 100px;
+}
+.secondblock-left_block>img {
+    margin-bottom: 15px;
+}
+.secondblock-left_block--btns {
+    display: flex;
+}
+.secondblock-left_block--btns>a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    background-color: #2351F5;
+}
+.secondblock-left_block--btns>p {
+    margin: auto 10px;
+}
+.secondblock-left_block>p:nth-child(3) {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.secondblock-left_block>p:nth-child(4), .secondblock-left_block>p:nth-child(5) {
+    font-size: 17px;
+    font-weight: 207.8%;
+    margin-bottom: 40px;
+}
+/*
+Правый блок
+*/
+.secondblock-right_theme {
+    display: flex;
+    margin-bottom: 50px;
+}
+.secondblock-right_theme--container {
+    margin: auto 20px;
+}
+.secondblock-right_theme--btns {
+    display: flex;
+}
+.secondblock-right_theme--btns>a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #2351F5;
+}
+.secondblock-right_theme--btns>p {
+    margin: auto 10px;
+}
+.secondblock-right_theme--container>p {
+    font-size: 23px;
+    font-weight: bold;
+}
