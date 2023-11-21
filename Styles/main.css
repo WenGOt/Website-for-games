@@ -130,7 +130,7 @@
     font-size: 35px;
     line-height: 187.5%;
     width: 826px;
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
     font-weight: Bold;
 }
 .fourblock-content {
@@ -143,6 +143,7 @@
     font-weight: Bold;
     font-size: 30px;
     line-height: 187.5%;
+    width: max-content;
 }
 .fourblock-text2 {
     font-size: 16px;
@@ -167,7 +168,7 @@
     margin-top: 130px;
     background-image: url("../images/main/background.png");
     width: 1440px;
-    height: 881px;
+    height: 850px;
     margin-left: -143px;
     padding-top: 1px;
 }
@@ -188,6 +189,7 @@
 .main_fiveblock>img {
     display: block;
     margin: 90px auto;
+    pointer-events: none;
 }
 
 /*

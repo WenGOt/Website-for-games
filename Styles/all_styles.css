@@ -1,9 +1,14 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/Gilroy\ SemiBold-normal-600-100.otf);
+}
 body {
     width: 1440px;
     background: linear-gradient(#050301 , #150C01);
     color: white;
     font-family: sans-serif, Times, serif;
     margin: 0 auto;
+    font-family: 'Gilroy';
 }
 
 /*
@@ -67,11 +72,14 @@ body {
     line-height: 187.5%;
     font-weight: bold;
     font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
 }
 .universalblock-text {
+    text-align: center;
+    margin: 0 auto 35px auto;
     line-height: 187.5%;
     font-size: 16px;
-    margin-bottom: 70px;
     width: 450px;
 }
 .universalblock-mailing {
@@ -80,6 +88,7 @@ body {
     border-radius: 15px;
     display: flex;
     padding: 40px 50px;
+    margin-bottom: -70px;
 }
 .universalblock-mailing_content {
     width: 40%;

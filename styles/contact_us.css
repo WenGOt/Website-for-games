@@ -22,6 +22,7 @@
 }
 .firstblock-navigation>a:last-child {
     color: #E47500;
+    width: max-content;
 }
 .firstblock-text {
     text-align: center;
