@@ -91,13 +91,16 @@
     font-size: 14px;
     line-height: 187.5%;
 }
+.secondblock-content_text1>p, .secondblock-content_text2>p, .secondblock-content_text3>p, .secondblock-content_text4>p {
+    margin: 6px;
+}
 .secondblock-content_text1>img, .secondblock-content_text2>img, .secondblock-content_text3>img, .secondblock-content_text4>img {
     width: 24px;
     height: 24px;
     margin: auto 10px auto 0;
 }
 .secondblock-content>p:nth-child(1) {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 180.5%;
     font-weight: bold;
 }
