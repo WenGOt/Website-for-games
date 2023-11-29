@@ -70,9 +70,10 @@
     height: 208px;
     background-color: #1C140F;
     border-radius: 20px;
-    padding: 50px 37px;
+    padding: 35px 37px;
 }
 .secondblock-content_text1 p:nth-child(1), .secondblock-content_text2 p:nth-child(1), .secondblock-content_text3 p:nth-child(1) {
+    margin-top: 0;
     font-weight: bold;
     line-height: 187.5%;
     font-size: 14px;
