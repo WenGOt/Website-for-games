@@ -27,7 +27,7 @@ Just download zip file and open. Upload files to any folder and run main.html
 
 * **WenGOt** - *Initial work* - [WenGOt](https://github.com/WenGOt)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+This site was created by only one person.
 
 ## Acknowledgments
 

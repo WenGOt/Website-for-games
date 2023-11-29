@@ -82,13 +82,13 @@
     text-align: center;
     padding: 5px 0;
 }
-.secondblock-content_text1 p:nth-child(1) {
+.secondblock-content_text1>p:nth-child(1) {
     background-color: #B000DC11;
 }
-.secondblock-content_text2 p:nth-child(1) {
+.secondblock-content_text2>p:nth-child(1) {
     background-color: #DC420011;
 }
-.secondblock-content_text3 p:nth-child(1) {
+.secondblock-content_text3>p:nth-child(1) {
     background-color: #00DC8D11;
 }
 .secondblock-content_text1 p:nth-child(2), .secondblock-content_text2 p:nth-child(2), .secondblock-content_text3 p:nth-child(2) {

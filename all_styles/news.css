@@ -51,7 +51,6 @@
     border-radius: 10px;
     padding: 10px 10px 10px 50px;
     border: 0;
-    line-height: px;
     font-size: 12px;
     color: white;
 }
@@ -69,12 +68,14 @@
 .secondblock-left, .secondblock-right {
     width: 44%;
 }
-.secondblock-left_block:nth-child(1) {
-    margin-bottom: 100px;
+.secondblock-left>hr {
+    width: 587px;
 }
-.secondblock-left_block:nth-child(2) {
-    border-top: 1px solid #A5A5A560;
-    padding-top: 100px;
+.secondblock-left_block:first-child {
+    margin-bottom: 60px;
+}
+.secondblock-left_block:last-child>img {
+    margin-top: 60px;
 }
 .secondblock-left_block>img {
     margin-bottom: 15px;
