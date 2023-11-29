@@ -1,0 +1,233 @@
+/*
+Первый блок с кнопкой (левая панель)
+*/
+.main_firstblock {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+.firstblock-text {
+    width: 40%;
+}
+.firstblock-text_head {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E87D0E;
+}
+.firstblock-text_body {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 155.2%;
+    margin-top: 17px;
+    margin-bottom: 26px;
+}
+.firstblock-text_footer {
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 200%;
+}
+.firstblock-button {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #E87D0E, #FB9E3C );
+    border-radius: 50px;
+    padding: 15px 30px;
+    line-height: 48px;
+}
+
+/*
+Первый блок с кнопкой (правая панель)
+*/
+.firstblock-image_one {
+    position: relative;
+    width: 806px;
+    height: 761px;
+    z-index: -1;
+    top: -200px;
+    right: -230px;
+}
+.firstblock-image_two {
+    position: relative;
+    z-index: -1;
+    bottom: 750px;
+    left: 280px;
+}
+.firstblock-image_three {
+    position: relative;
+    z-index: -1;
+    bottom: 600px;
+}
+.firstblock-image_four {
+    position: relative;
+    z-index: -1;
+    bottom: 765px;
+    left: 490px;
+}
+
+/*
+Второй блок с текстом и кнопкой
+*/
+.main_secondblock {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -200px;
+}
+.main_secondblock p {
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 187.5%;
+    margin: 0px;
+}
+.secondblock-button {
+    color: white;
+    text-decoration: none;
+    background-color: #ffffff11;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    line-height: 187.5%;
+}
+
+/* 
+Третий блок с картинками и текстом под ним 
+*/
+.main_thirdblock {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+}
+.main_thirdblock>img {
+    width: 251px;
+    height: 277px;
+}
+.thirdblock-box_text {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.thirdblock-box_text p {
+    line-height: 187.5%;
+    font-size: 22px;
+    margin: 0px;
+    margin-left: -35px;
+}
+.thirdblock-box_text>img {
+    padding: 0px;
+    margin: auto 0px;
+    width: 25px;
+    height: 25px;
+    line-height: 187.5%;
+}
+
+/*
+Четвертый блок с текстом и картинкой
+*/
+.main_fourblock {
+    margin-top: 129px;
+}
+.fourblock-text {
+    text-align: center;
+    font-size: 35px;
+    line-height: 187.5%;
+    width: 826px;
+    margin: 0 auto 40px auto;
+    font-weight: Bold;
+}
+.fourblock-content {
+    display: flex;
+}
+.fourblock-content_text {
+    width: 40%;
+}
+.fourblock-text1 {
+    font-weight: Bold;
+    font-size: 30px;
+    line-height: 187.5%;
+    width: max-content;
+}
+.fourblock-text2 {
+    font-size: 16px;
+    line-height: 187.5%;
+}
+.fourblock-content_image>img {
+    position: relative;
+    bottom: -180px;
+    left: 280px;
+    z-index: -1;
+}
+.fourblock-image {
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/*
+Пятый блок задним фоном и ссылками на разные платформы
+*/
+.main_fiveblock {
+    margin-top: 130px;
+    background-image: url("../images/main/background.png");
+    width: 1440px;
+    height: 850px;
+    margin-left: -143px;
+    padding-top: 1px;
+}
+.fiveblock-head, .fiveblock-text {
+    text-align: center;
+    width: 826px;
+    line-height: 187.5%;
+}
+.fiveblock-head {
+    font-size: 30px;
+    font-weight: Bold;
+    margin: 93px auto 25px auto;
+}
+.fiveblock-text {
+    font-size: 16px;
+    margin: 0 auto;
+}
+.main_fiveblock>img {
+    display: block;
+    margin: 90px auto;
+    pointer-events: none;
+}
+
+/*
+Шестой блок с текстом, картинками и кнопкой
+*/
+.main_sixblock {
+    margin-top: 120px;
+}
+.sixblock-head {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 187.5%;
+}
+.sixblock-text {
+    width: 467px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 187.5%;
+    margin: 0 auto 57px auto;
+}
+.sixblock-images_one, .sixblock-images_two {
+    display: flex;
+}
+.sixblock-images_one>img, .sixblock-images_two>img {
+    margin: 0 27px 31px 0;
+}
+.sixblock-button {
+    margin-top: 30px;
+    text-align: center;
+}
+.sixblock-button>a {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    background-color: #ffffff11;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    line-height: 187.5%;
+}
