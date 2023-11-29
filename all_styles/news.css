@@ -122,7 +122,9 @@
 .secondblock-right_theme--btns>p {
     margin: auto 10px;
 }
-.secondblock-right_theme--container>p {
-    font-size: 23px;
+.secondblock-right_theme--container>a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
     font-weight: bold;
 }
