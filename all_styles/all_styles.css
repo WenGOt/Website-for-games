@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/Gilroy\ SemiBold-normal-600-100.otf);
+}
+body {
+    width: 1440px;
+    background: linear-gradient(#050301 , #150C01);
+    color: white;
+    font-family: sans-serif, Times, serif;
+    margin: 0 auto;
+    font-family: 'Gilroy';
+}
+
+/*
+Основные стили для header-a
+*/
+.header_navigation {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.header_navigation a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    align-self: center;
+    white-space: nowrap; /* Текст не складывается в гармошку */
+}
+.header_navigation ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.header_navigation ul li {
+    margin: 0 0 0 88px;
+    line-height: 12px;
+    align-self: center;
+}
+.header_logo {
+    margin: 13px 55px;
+    font-size: x-large;
+    font-weight: 900;
+}
+#header_navigation-image {
+    position: absolute;
+    margin-top: 10px;
+    z-index: -1;
+}
+.contact_us {
+    background-color: #FA9021;
+    padding: 10px 28px;
+    margin: 0 63px 0 37px;
+    border-radius: 10px;
+}
+
+/*
+Основные стили для main-a
+*/
+.main {
+    margin-left: 143px;
+    margin-right: 143px;
+    margin-bottom: 163px;
+}
+
+/*
+Стили для универсального блока
+*/
+.main_universalblock {
+    margin-top: 100px;
+}
+.universalblock-head {
+    line-height: 187.5%;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.universalblock-text {
+    text-align: center;
+    margin: 0 auto 35px auto;
+    line-height: 187.5%;
+    font-size: 16px;
+    width: 450px;
+}
+.universalblock-mailing {
+    z-index: -2;
+    background-color: #89898940;
+    border-radius: 15px;
+    display: flex;
+    padding: 40px 50px;
+    margin-bottom: -70px;
+}
+.universalblock-mailing_content {
+    width: 40%;
+    margin-right: 20px;
+}
+.universalblock-mailing_head {
+    line-height: 187.5%;
+    font-size: 30px;
+    margin: 0;
+}
+.universalblock-mailing_text {
+    line-height: 187.5%;
+    margin: 0;
+}
+.universalblock-mailing_input {
+    margin: auto auto auto 140px;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    height: 48px;
+    padding: 10px;
+}
+.universalblock-mailing_submit {
+    color: white;
+    padding: 0 20px;
+    border: 0;
+    border-radius: 15px;
+    background-color: orange;
+    margin-left: 10px;
+}
+.universalblock-mailing_inputbtn {
+    border: 0;
+    background-color: #00000000;
+    width: 350px;
+    height: 45px;
+    border-radius: 15px;
+    margin: auto 5px ;
+}
+
+/*
+Основные стили для footer-a
+*/
+footer {
+    background-color: black;
+}
+.footer_main {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_main-logo {
+    width: 25%;
+}
+.footer_main-links, .footer_main-soc_links {
+    width: 15%;
+}
+.footer_main-info {
+    width: 30%;
+}
+.footer_main-logo a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+}
+.footer_main-links a{
+    text-decoration: none;
+    color: white;
+}
+.footer_main-links--block {
+    margin-top: 23px;
+    line-height: 10px;
+}
+.footer_main-info a{
+    color: white;
+    text-decoration: none;
+}
+.footer_main-soc_links img {
+    position: relative;
+    bottom: -65px;
+}
+.footer_copyright {
+    border-top: 1px solid #D2D2D2;
+    text-align: center;
+    font-size: small;
+}
+.footer_copyright p {
+    margin: 0;
+    padding: 10px;
+    line-height: 187.5%;
+}

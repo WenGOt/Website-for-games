@@ -1,0 +1,243 @@
+/*
+Первый блок с количеством филиалов и т.п.
+*/
+.firstblock-navigation {
+    width: min-content;
+    margin: 100px auto 0 auto;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.firstblock-navigation>p {
+    margin: 0 10px;
+}
+.firstblock-navigation>a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+.firstblock-navigation>a:last-child {
+    color: #E47500;
+}
+.firstblock-text {
+    text-align: center;
+}
+.firstblock-text>h1 {
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 180.5%;
+}
+.firstblock-text>p {
+    font-size: 16px;
+    line-height: 187.5%;
+    font-weight: bold;
+}
+.firstblock-content {
+    display: flex;
+    background-color: #1C140F;
+    border-radius: 20px;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 30px;
+}
+.firstblock-content_block1, .firstblock-content_block3 {
+    display: flex;
+    padding: 15px 92px;
+    margin: 0;
+}
+.firstblock-content_block2 {
+    display: flex;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 15px 130px;
+    margin: 0;
+}
+.firstblock-content_block1>img, .firstblock-content_block2>img, .firstblock-content_block3>img {
+    height: 55px;
+    width: 55px;
+    margin: auto 20px;
+}
+.firstblock-content_block1--text>p:nth-child(1), .firstblock-content_block2--text>p:nth-child(1), .firstblock-content_block3--text>p:nth-child(1) {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 5px;
+}
+.firstblock-content_block1--text>p:nth-child(2), .firstblock-content_block2--text>p:nth-child(2), .firstblock-content_block3--text>p:nth-child(2) {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 5px;
+}
+
+/*
+Второй блок с видеоматериалом и текстом к нему
+*/
+.main_secondblock {
+    display: flex;
+    margin-top: 90px;
+}
+.main_secondblock>img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    left: -50px;
+}
+.secondblock-content {
+    margin-left: 40px;
+}
+.secondblock-content_text1, .secondblock-content_text2, .secondblock-content_text3, .secondblock-content_text4 {
+    display: flex;
+    font-size: 14px;
+    line-height: 187.5%;
+}
+.secondblock-content_text1>p, .secondblock-content_text2>p, .secondblock-content_text3>p, .secondblock-content_text4>p {
+    margin: 6px;
+}
+.secondblock-content_text1>img, .secondblock-content_text2>img, .secondblock-content_text3>img, .secondblock-content_text4>img {
+    width: 24px;
+    height: 24px;
+    margin: auto 10px auto 0;
+}
+.secondblock-content>p:nth-child(1) {
+    font-size: 28px;
+    line-height: 180.5%;
+    font-weight: bold;
+}
+.secondblock-content>p:nth-child(2) {
+    font-size: 14px;
+    line-height: 187.5%;
+}
+
+/*
+Три блока с картинками и их описанием
+*/
+.main_thirdblock {
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+.thirdblock-content {
+    width: 500px;
+    height: 460px;
+}
+.thirdblock-content>p:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+}
+.thirdblock-content>p:nth-child(2), .thirdblock-content>p:nth-child(3) {
+    font-size: 17px;
+    margin: 50px auto;
+}
+.thirdblock-content>a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: #E47500;
+
+}
+
+/*
+Четвёртый блок с отзывами о сайте и т.п.
+*/
+.main_fourblock {
+    background-color: #1C140F;
+    width: 1440px;
+    position: relative;
+    left: -143px;
+}
+.main_fourblock>p:nth-child(1) {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+.main_fourblock>p:nth-child(2) {
+    font-size: 14px;
+    line-height: 187.5%;
+    text-align: center;
+}
+.fourblock-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.fourblock-content_block {
+    width: 330px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.fourblock-content_block:nth-child(1) {
+    border: 1px solid gold;
+    background-color: #1C140F;
+}
+.fourblock-content_block:nth-child(2), .fourblock-content_block:nth-child(3) {
+    border: 1px solid white;
+    background-color: #1C140F;
+}
+.fourblock-content_block--image {
+    display: flex;
+    justify-content: space-between;
+}
+.fourblock-content_block--image__name {
+    display: flex;
+}
+.fourblock-content_block--image__name>img {
+    width: 50px;
+    height: 50px;
+    margin: auto 20px auto auto;
+}
+.fourblock-content_block--image__text>p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+.fourblock-content_block--image__text>p:last-child {
+    font-size: 14px;
+    line-height: 0%;
+    color: #4F5665;
+}
+.fourblock-content_block--image__star {
+    display: flex;
+    height: 52px;
+    padding: 15px;
+}
+.fourblock-content_block--image__star>img {
+    width: 12px;
+    height: 12px;
+    margin: auto auto auto 10px;
+}
+.fourblock-content_block>p {
+    margin-top: 20px;
+}
+.fourblock-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.fourblock-footer_points {
+    margin-left: 60px;
+}
+.fourblock-footer_points>img {
+    margin: 22px 5px;
+}
+.fourblock-footer_arrow {
+    margin-right: -20px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+.fourblock-footer_arrow>img:nth-child(1) {
+    width: 60px;
+    height: 60px;
+}
+.fourblock-footer_arrow>img:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -30.55px;
+    left: -30px;
+}

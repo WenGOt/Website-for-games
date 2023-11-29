@@ -1,0 +1,154 @@
+/*
+Первый блок c навигацией
+*/
+.firstblock-navigation {
+    width: min-content;
+    margin: 100px auto 0 auto;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.firstblock-navigation>p {
+    margin: 0 10px;
+}
+.firstblock-navigation>a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+.firstblock-navigation>a:last-child {
+    width: 80px;
+}
+.firstblock-navigation>a:last-child {
+    color: #E47500;
+    width: max-content;
+}
+.firstblock-text {
+    text-align: center;
+}
+.firstblock-text>h1 {
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 180.5%;
+}
+.firstblock-text>p {
+    font-size: 16px;
+    line-height: 187.5%;
+    font-weight: bold;
+}
+.main_firstblock>img {
+    display: block;
+    margin: 20px auto;
+}
+.firstblock-content {
+    display: flex;
+    justify-content: space-between;
+}
+.firstblock-content_social>img {
+    position: relative;
+    left: -12px;
+}
+.firstblock-content_phone {
+    display: flex;
+    margin: auto 0;
+    height: 100px;
+    width: 400px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.firstblock-content_phone>p {
+    margin: auto 0px;
+}
+.firstblock-content_phone>img {
+    height: 30px;
+    width: 30px;
+    margin: auto 10px auto 115px;
+}
+.firstblock-content_gps {
+    display: flex;
+    margin: auto 0;
+}
+.firstblock-content_gps>img {
+    height: 30px;
+    width: 30px;
+    margin: auto 10px;
+}
+
+/*
+Второй блок с инпутами для возможности связаться 
+*/
+.main_secondblock {
+    position: relative;
+    left: -143px;
+    background-color: #1C140F;
+    width: 1440px;
+    height: 800px;
+    margin-top: 50px;
+}
+.main_secondblock>img:nth-child(1) {
+    position: absolute;
+    bottom: 0;
+}
+.main_secondblock>img:nth-child(2) {
+    position: absolute;
+    right: 0;
+}
+.secondblock-content {
+    width: 670px;
+    height: 740px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.secondblock-content>p:nth-child(1) {
+    text-align: center;
+    font-size: 30px;
+    line-height: 189.5%;
+}
+.secondblock-content>p:nth-child(2) {
+    text-align: center;
+    font-size: 13px;
+    line-height: 189.5%;
+}
+.secondblock-content_inputs1 {
+    display: flex;
+}
+.secondblock-content_inputs1--left, .secondblock-content_inputs1--right {
+    width: 50%;
+}
+.secondblock-content_inputs1--left>input, .secondblock-content_inputs1--right>input {
+    width: 96%;
+    margin: 0 auto;
+    display: block;
+    height: 56px;
+    background-color: #1C140F11;
+    border-radius: 10px;
+}
+.secondblock-content_inputs2>input {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: 56px;
+    background-color: #1C140F11;
+    border-radius: 10px;
+}
+.secondblock-content_inputs3>input {
+    width: 100%;
+    padding-top: 120px;
+    margin: 0 auto;
+    display: block;
+    height: 56px;
+    background-color: #1C140F11;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.secondblock-content>a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    background-color: #E47500;
+    position: absolute;
+    right: 400px;
+    border-radius: 20px;
+}
+
