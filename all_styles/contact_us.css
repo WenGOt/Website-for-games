@@ -40,6 +40,7 @@
 .main_firstblock>img {
     display: block;
     margin: 20px auto;
+    pointer-events: none;
 }
 .firstblock-content {
     display: flex;
@@ -64,6 +65,7 @@
     height: 30px;
     width: 30px;
     margin: auto 10px auto 115px;
+    pointer-events: none;
 }
 .firstblock-content_gps {
     display: flex;
@@ -73,6 +75,7 @@
     height: 30px;
     width: 30px;
     margin: auto 10px;
+    pointer-events: none;
 }
 
 /*
@@ -89,10 +92,12 @@
 .main_secondblock>img:nth-child(1) {
     position: absolute;
     bottom: 0;
+    pointer-events: none;
 }
 .main_secondblock>img:nth-child(2) {
     position: absolute;
     right: 0;
+    pointer-events: none;
 }
 .secondblock-content {
     width: 670px;
