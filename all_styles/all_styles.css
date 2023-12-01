@@ -4,6 +4,7 @@
 }
 html {
     background: linear-gradient(#050301 , #150C01);
+    
 }
 body {
     width: 1440px;
@@ -78,7 +79,6 @@ h1:hover, h2:hover, p:hover {
 #header_navigation-image {
     position: absolute;
     margin-top: 10px;
-    z-index: -1;
 }
 .contact_us {
     animation: button_color_anim 4s infinite;

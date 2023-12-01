@@ -43,26 +43,26 @@
     position: relative;
     width: 806px;
     height: 761px;
-    z-index: -1;
     top: -200px;
     right: -230px;
+    pointer-events: none;
 }
 .firstblock-image_two {
     position: relative;
-    z-index: -1;
     bottom: 750px;
     left: 280px;
+    pointer-events: none;
 }
 .firstblock-image_three {
     position: relative;
-    z-index: -1;
     bottom: 600px;
+    pointer-events: none;
 }
 .firstblock-image_four {
     position: relative;
-    z-index: -1;
     bottom: 765px;
     left: 490px;
+    pointer-events: none;
 }
 
 /*
