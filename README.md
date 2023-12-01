@@ -16,7 +16,7 @@ Nothing
 
 ### Installing
 
-Just download zip file and open. Upload files to any folder and run main.html
+Just download zip file and open. Upload files to any folder and run index.html
 
 ## Built With
 
