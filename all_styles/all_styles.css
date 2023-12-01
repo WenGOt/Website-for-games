@@ -3,7 +3,7 @@
     src: url(../fonts/Gilroy\ SemiBold-normal-600-100.otf);
 }
 html {
-    background-color: black;
+    background: linear-gradient(#050301 , #150C01);
 }
 body {
     width: 1440px;
