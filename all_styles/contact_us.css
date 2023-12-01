@@ -151,7 +151,7 @@
     text-decoration: none;
     color: white;
     padding: 20px 30px;
-    background-color: #E47500;
+    animation: button_color_anim 4s infinite;;
     position: absolute;
     right: 400px;
     border-radius: 20px;

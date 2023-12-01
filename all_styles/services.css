@@ -134,7 +134,7 @@
     color: white;
     padding: 15px 40px;
     border-radius: 50px;
-    background-color: #E47500;
+    animation: button_color_anim 4s infinite;
 
 }
 

@@ -26,19 +26,19 @@ h1:hover, h2:hover, p:hover {
 */
 @keyframes button_color_anim {
     0% {
-        background-color: orange;
+        background-color: rgb(226, 147, 0);
     }
     25% {
         background-color: #e27500;
     }
     50% {
-        background-color: orange;
+        background-color: rgb(226, 147, 0);
     }
     75% {
         background-color: #e27500;
     }
     100% {
-        background-color: orange;
+        background-color: rgb(226, 147, 0);
     }
 }
 
@@ -78,7 +78,7 @@ h1:hover, h2:hover, p:hover {
     z-index: -1;
 }
 .contact_us {
-    background-color: #FA9021;
+    animation: button_color_anim 4s infinite;
     padding: 10px 28px;
     margin: 0 63px 0 37px;
     border-radius: 10px;
@@ -148,7 +148,7 @@ h1:hover, h2:hover, p:hover {
     border: 0;
     border-radius: 15px;
     margin-left: 10px;
-    animation: button_color_anim 3s infinite;
+    animation: button_color_anim 4s infinite;
 }
 .universalblock-mailing_inputbtn {
     border: 0;
