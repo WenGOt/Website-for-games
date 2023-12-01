@@ -29,11 +29,12 @@
 .firstblock-button {
     text-decoration: none;
     color: white;
-    background: linear-gradient(to right, #E87D0E, #FB9E3C );
     border-radius: 50px;
     padding: 15px 30px;
     line-height: 48px;
+    animation: button_color_anim 4s infinite;
 }
+
 
 /*
 Первый блок с кнопкой (правая панель)

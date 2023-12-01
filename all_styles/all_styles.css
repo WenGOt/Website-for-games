@@ -10,6 +10,37 @@ body {
     margin: 0 auto;
     font-family: 'Gilroy';
 }
+/* 
+Анимация перехода к начальному состоянию
+*/
+h1, h2, p {
+    transition: all 1.0s ease;
+}
+h1:hover, h2:hover, p:hover {
+    transition: all 0.5s;
+    color: rgb(255, 189, 67);
+}
+
+/* 
+Анимация смены цвета кнопок
+*/
+@keyframes button_color_anim {
+    0% {
+        background-color: orange;
+    }
+    25% {
+        background-color: #e27500;
+    }
+    50% {
+        background-color: orange;
+    }
+    75% {
+        background-color: #e27500;
+    }
+    100% {
+        background-color: orange;
+    }
+}
 
 /*
 Основные стили для header-a
@@ -116,8 +147,8 @@ body {
     padding: 0 20px;
     border: 0;
     border-radius: 15px;
-    background-color: orange;
     margin-left: 10px;
+    animation: button_color_anim 3s infinite;
 }
 .universalblock-mailing_inputbtn {
     border: 0;
