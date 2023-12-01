@@ -2,6 +2,9 @@
     font-family: 'Gilroy';
     src: url(../fonts/Gilroy\ SemiBold-normal-600-100.otf);
 }
+html {
+    background-color: black;
+}
 body {
     width: 1440px;
     background: linear-gradient(#050301 , #150C01);
@@ -9,7 +12,6 @@ body {
     font-family: sans-serif, Times, serif;
     margin: 0 auto;
     font-family: 'Gilroy';
-    background-color: black;
 }
 /* 
 Анимация перехода к начальному состоянию
